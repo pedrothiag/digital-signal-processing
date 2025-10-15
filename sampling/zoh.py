@@ -19,12 +19,14 @@ def ctft(x,Ts):
     return f,Xf
 
 # Parâmetros de Simulação
-Td = 1e-4
-t = np.arange(0,1.0,Td)
+Td = 1e-5
+time = 1.0
+t = np.arange(0,time,Td)
 
 #Retentor de Ordem Zero
 Fs = 50
 Ts = 1/Fs
+
 nFac = int(np.round(Ts/Td))
 hZOH = np.zeros_like(t)
 hZOH[0:nFac] = 1

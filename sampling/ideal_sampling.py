@@ -70,7 +70,7 @@ plt.tight_layout()
 ###############################################################################################
 #Filtro Passa-Baixas
 Fc = Fs/2                                              # frequência de corte
-ordem = 4                                              # ordem do filtro
+ordem = 4                                             # ordem do filtro
 Fd = 1/Td
 Wn =  Fc / (Fd/2)                                      # frequência de corte normalizada
 b_lp, a_lp = signal.butter(ordem, Wn, btype='lowpass') # cálculo dos coeficientes do filtro

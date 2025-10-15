@@ -23,8 +23,9 @@ def Pulse(t, tau):
     return 1*np.logical_and(t>=0, t<=tau)
 
 #Parametros de Simulacao
-Td = 1e-4
-t = np.arange(0,1.0,Td)
+Td = 1e-5
+time = 1.0
+t = np.arange(0,time,Td)
 
 #Intervalo de amostragem
 Fs = 50

@@ -12,7 +12,7 @@ plt.rcParams['mathtext.bf'] = "Times New Roman:bold"
 
 #Funcao para fazer a quantizacao
 def uniquan(x, L):
-    #Primeiramente define-se o valor de L e Delta
+    #Primeiramente define-se o valor de Delta
     x_max = max(x)
     x_min = min(x)
     Delta = (x_max - x_min)/L
@@ -31,7 +31,7 @@ def uniquan(x, L):
     x_pcm = q_level[x_p]
     return x_pcm
     
-Td = 1e-4
+Td = 1e-5
 time = 1.0
 t = np.arange(0,time,Td)
 
