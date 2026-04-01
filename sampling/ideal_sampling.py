@@ -3,12 +3,12 @@ import numpy.fft as fft
 import scipy.signal as signal
 import matplotlib.pyplot as plt
 
-#Muda a fonte dos Plots para Times New Roman
-plt.rcParams["font.family"] = "Times New Roman"
+#Muda a fonte dos Plots para Arial
+plt.rcParams["font.family"] = "Arial"
 plt.rcParams["mathtext.fontset"] = "custom"
-plt.rcParams['mathtext.rm'] = "Times New Roman"
-plt.rcParams['mathtext.it'] = "Times New Roman:italic"
-plt.rcParams['mathtext.bf'] = "Times New Roman:bold"
+plt.rcParams['mathtext.rm'] = "Arial"
+plt.rcParams['mathtext.it'] = "Arial:italic"
+plt.rcParams['mathtext.bf'] = "Arial:bold"
 
 #Funcao para Calcular a Transformada de Fourier
 def ctft(x,Ts):
