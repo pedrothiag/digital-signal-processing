@@ -2,7 +2,7 @@
 
 Neste repositório encontram-se todos os materiais utilizados na disciplina de Processamento Digital de Sinais, ministrado durante os anos de 2019 até 2026 na UFERSA - Campus Pau dos Ferros.
 
-## Assuntos Abordados no Curso
+## Assuntos Abordados
 
 1. Introdução ao Processamento Digital de Sinais
 2. Sinais de Tempo Discreto
